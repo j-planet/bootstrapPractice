@@ -1,21 +1,82 @@
+html, body
+{
+  height: 100%;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.btn
+{
+  transition: all 0.3s ease-in-out; // all: all properties
+}
+
+@media (max-width: 768px) {
+  #header
+  {
+    text-align: center;
+
+    img
+    {
+      margin: 0 auto; // center-align horizontally
+    }
+  }
+}
+
 .navbar
 {
-    background-color: rgba(21, 31, 33, 0.5);
-    border-bottom: 1px solid #dedede;
-    font-family: 'Alegreya Sans', sans-serif;
+  background-color: rgba(21, 31, 33, 0.5);
+  border-bottom: 1px solid #dedede;
+  font-family: 'Alegreya Sans', sans-serif;
 
-    .nav .nav-item .nav-link
+  .nav .nav-item .nav-link
+  {
+    color: #d1d1d1;
+
+    &:hover
     {
-        color: #d1d1d1;
-
-        &:hover
-        {
-            color: #fff;
-        }
+      color: #fff;
     }
+  }
 }
 
 .navbar-toggler
 {
-    color: #fff;
+  color: #fff;
+}
+
+/* --- HEADER ---*/
+#header
+{
+  background: url('img/stars-bg.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: #fff;
+  display: flex;  // align-items doesn't work without this line
+  align-items: center;
+
+  img
+  {
+    padding: 0 0 20px;
+    width: 80%;
+  }
+
+  .header-right
+  {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  a .fa
+  {
+    color: white;
+    &:hover
+    {
+      color: #ccc;
+    }
+  }
+
+  .fa
+  {
+    margin: 5% 0;
+  }
 }
