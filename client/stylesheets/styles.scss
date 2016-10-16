@@ -43,7 +43,7 @@ html, body
   color: #fff;
 }
 
-/* --- HEADER ---*/
+/* --- HEADER --- */
 #header
 {
   background: url('img/stars-bg.jpg') center center no-repeat;
@@ -78,5 +78,24 @@ html, body
   .fa
   {
     margin: 5% 0;
+  }
+}
+
+/* --- SOCIAL --- */
+#social
+{
+  padding: 4.25rem 0;
+
+  .fa
+  {
+    font-size: 1.5em;
+    color: #be2a35;
+    border: 2px solid #be2a35;
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    text-align: center;
+    padding: 30% 0;
+    margin-top: 10px;
   }
 }
