@@ -142,3 +142,25 @@ html, body
     }
   }
 }
+
+/* ---- WORK --- */
+#work
+{
+  padding: 5rem 0;
+
+  .work-img
+  {
+    position: relative; // makes the overlay NOT cover the text below the image
+
+    .card-img-overlay {
+      // places the overlay exactly on top of the image underneath it
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
