@@ -20,14 +20,19 @@ html, body
     }
   }
 
-  #social
+  #social, #who
   {
-    text-align: center;
+    text-align: center; // centers the "find out more" button as well
 
     hr
     {
       margin: 8% auto;
     }
+  }
+
+  #who img
+  {
+    margin-top: 15%;
   }
 }
 
@@ -113,6 +118,27 @@ html, body
     {
       color: white;
       background: #be2a35;
+    }
+  }
+}
+
+/* --- WHO --- */
+#who
+{
+  padding: 5rem 0;
+  background-color: #f6f6f6;
+
+  .btn-who
+  {
+    background-color: #be2a35;
+    color: white;
+    width: 50%; // fills half the section
+
+    &:hover
+    {
+      background-color: transparent;
+      border: 1px solid #be2a35;
+      color: #be2a35;
     }
   }
 }
