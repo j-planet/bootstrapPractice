@@ -203,6 +203,7 @@ html, body
 #customers
 {
   padding: 5rem 0;
+  overflow: hidden; // hide any content that overflows out of this section
 
   .carousel-inner
   {
