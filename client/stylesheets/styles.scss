@@ -20,7 +20,7 @@ html, body
     }
   }
 
-  #social, #who, #work, #why, #customers, #pricing
+  #social, #who, #work, #why, #customers, #pricing, #contact
   {
     text-align: center; // centers the "find out more" button as well
 
@@ -242,4 +242,10 @@ html, body
     }
 
   }
+}
+
+/* --- CONTACT --- */
+#contact
+{
+  padding: 5rem 0;
 }
