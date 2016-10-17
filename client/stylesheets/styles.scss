@@ -20,7 +20,7 @@ html, body
     }
   }
 
-  #social, #who, #work, #why
+  #social, #who, #work, #why, #customers
   {
     text-align: center; // centers the "find out more" button as well
 
@@ -192,4 +192,10 @@ html, body
     color: #be2a35;
     padding: 15px 0;
   }
+}
+
+/* --- CUSTOMERS --- */
+#customers
+{
+  padding: 5rem 0;
 }
