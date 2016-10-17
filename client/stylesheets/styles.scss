@@ -198,4 +198,19 @@ html, body
 #customers
 {
   padding: 5rem 0;
+
+  .carousel-inner
+  {
+    margin-bottom: 50px;
+  }
+
+  .carousel-indicators
+  {
+    margin-bottom: -50px; // move carousel dots (indicators) down
+
+    li
+    {
+      background-color: #be2a35;
+    }
+  }
 }
