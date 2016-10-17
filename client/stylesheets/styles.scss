@@ -20,7 +20,7 @@ html, body
     }
   }
 
-  #social, #who, #work, #why, #customers
+  #social, #who, #work, #why, #customers, #pricing
   {
     text-align: center; // centers the "find out more" button as well
 
@@ -213,4 +213,10 @@ html, body
       background-color: #be2a35;
     }
   }
+}
+
+/* --- PRICING --- */
+#pricing
+{
+
 }
